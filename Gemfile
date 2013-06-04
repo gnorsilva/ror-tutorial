@@ -10,6 +10,8 @@ gem 'pg'
 group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'guard'
+  gem 'guard-rspec'
 end
 
 group :test do
