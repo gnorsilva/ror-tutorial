@@ -4,7 +4,9 @@ describe "Static pages" do
 
   [{title: 'Home',  h1_text: 'Sample App'},
    {title: 'Help',  h1_text: 'Help!'},
-   {title: 'About', h1_text: 'About Us'}].each do |values|
+   {title: 'About', h1_text: 'About Us'},
+   {title: 'Contact', h1_text: 'Contact Us'}
+  ].each do |values|
 
     describe "#{values[:title]} page" do
       before { visit "/static_pages/#{values[:title].downcase}" }
