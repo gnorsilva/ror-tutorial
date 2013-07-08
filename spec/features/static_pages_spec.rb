@@ -5,7 +5,8 @@ describe "Static pages" do
   [{path: 'root_path', title: 'Home',  h1_text: 'Sample App'},
    {path: 'help_path', title: 'Help',  h1_text: 'Help!'},
    {path: 'about_path', title: 'About', h1_text: 'About Us'},
-   {path: 'contact_path', title: 'Contact', h1_text: 'Contact Us'}
+   {path: 'contact_path', title: 'Contact', h1_text: 'Contact Us'},
+   {path: 'signup_path', title: 'Sign up', h1_text: 'Sign up'}
   ].each do |values|
 
     describe "#{values[:title]} page" do
