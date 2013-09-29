@@ -16,4 +16,6 @@
 *.iml
 .idea/
 /bin
+out/
+
 ror-tutorial.sublime-workspace
